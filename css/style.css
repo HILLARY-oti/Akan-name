@@ -5,17 +5,23 @@ h1 {
   font-style: italic;
 }
 h2 {
-  color: darkgreen;
+  color: brown;
   text-align: center;
   font-style: italic;
   font-size: 49px;
 }
 p {
-  color: rgb(21, 253, 0);
+  color: rgb(160, 0, 253);
   font-style: oblique;
   font-size: 20px;
 }
 button {
   color: indigo;
   background-color: lime;
+}
+body {
+    background-image: url(images.jpeg);
+}
+input {
+  color: chartreuse;
 }
