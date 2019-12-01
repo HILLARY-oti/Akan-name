@@ -28,3 +28,13 @@ function checkDayOfWeek() {
   checkGender();
   console.log("The function runs");//Test chackDayOfWeek function
 }
+//get selected radio button
+function checkGender() {
+  var gen = document.getElementsByName("gender");
+  if (gen[0].checked == true) {
+    var gender = "male";
+  } else if (gen[1].checked == true) {
+    var gender = "female";
+  } else {
+    console.log("pass");//Test the radio buttons
+  }
