@@ -9,7 +9,7 @@ function getInput() {
   month = parseInt(document.getElementById("month").value);
   dayOfMonth = parseInt(document.getElementById("dayOfMonth").value);
 }
-//Calculate func
+//Calculate function
 function calculateDay() {
   getInput();
   dayOfWeek = (((century / 4) - 2 * century - 1) + ((5 * year / 4)) + ((26 * (month + 1) / 10)) + dayOfMonth) % 7;
