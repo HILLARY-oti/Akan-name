@@ -9,3 +9,16 @@ function getInput() {
   month = parseInt(document.getElementById("month").value);
   dayOfMonth = parseInt(document.getElementById("dayOfMonth").value);
 }
+//Calculate func
+function calculateDay() {
+  getInput();
+  dayOfWeek = (((century / 4) - 2 * century - 1) + ((5 * year / 4)) + ((26 * (month + 1) / 10)) + dayOfMonth) % 7;
+  dayOfWeek -= 1;
+  console.log(dayOfWeek); //Test the calculateDay function
+  return (Math.floor(dayOfWeek));
+  if (dayOfWeek < 0) {
+    dayOfWeek *= dayOfWeek;
+  } else {
+    return dayOfWeek
+  }
+}
