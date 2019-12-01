@@ -15,3 +15,7 @@ p {
   font-style: oblique;
   font-size: 20px;
 }
+button {
+  color: indigo;
+  background-color: lime;
+}
