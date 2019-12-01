@@ -7,7 +7,7 @@ Hillary Otieno.
 2 css
 3 js
 ## Description of the project
-The project is a website on which a person will be checking his/her birthday and also Ghanian name.
+The project is a website on which a person will be checking his/her birthday and also Ghanian name.You enter your birthday an result comes at the bottom
 ## Project setup and Instructions
 Open my github repository
 click on the live link to view the project/Akan name
